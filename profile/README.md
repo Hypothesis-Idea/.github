@@ -1,16 +1,20 @@
+<p align="center">
+  <img src="https://www.hypoidea.com/img/main/logo_hi_long.png" alt="HypoIdea logo" width="360" />
+</p>
+
 # Hypothesis & Idea · HypoIdea
 
-> We bring your ideas to life — 一站式資訊科技夥伴，服務香港企業、社福機構與新創團隊。
+> 💡 We bring your ideas to life — 一站式 IT Solution 夥伴，連結策略、設計與工程的彩色火花。
 
-Hypothesis and Idea Business Solution Limited（HypoIdea）擁有跨產品策略、UX、全端開發與雲端部署的團隊背景。我們從用戶洞察出發，把企業營運、社區服務及籌募流程數碼化，為客戶帶來可持續的業務成長與影響力。
+Hypothesis and Idea Business Solution Limited（HypoIdea）是一家位於香港的資訊科技顧問與解決方案公司，服務金融、教育、社福、醫療及成長型企業。團隊擁有策略顧問、UX/UI、iOS / Android、Web、雲端基礎建設與營運支援等背景，能把複雜流程變成易於管理的數碼體驗。
 
 ## 我們相信
 
-- **以使用者為本**：用戶研究、可用性測試與實地訪談，確保解決真正痛點。
-- **合理透明的價值**：清晰的交付節奏、模組化技術方案與易於維護的架構。
+- **以使用者為本**：用戶研究、可用性測試與實地訪談，確保解決真正痛點。  
+- **合理透明的價值**：清晰的交付節奏、模組化技術方案與易於維護的架構。  
 - **長期同行**：由需求釐清、介面設計、系統開發至上線營運，全程伴隨。
 
-## 專業服務能力
+## 一站式 IT Solutions
 
 | 領域 | 我們的重點 |
 | --- | --- |
@@ -28,24 +32,7 @@ Hypothesis and Idea Business Solution Limited（HypoIdea）擁有跨產品策略
 - **線上籌款與賣旗平台** — 支援籌款活動、紀錄及捐款收據管理。  
 - **客製化 Web / iOS / Android 應用** — 含 UI/UX、追蹤與推播，快速交付市場可用產品。
 
-## 服務對象與客戶
-
-我們累積協助的夥伴包括：保良局、仁愛堂、香港明愛、東華三院、香港牙醫學會等。團隊熟悉非牟利、教育、醫療及中小企業的管治需求，能兼顧合規、資安與使用者體驗。
-
-## 科技券 (TVP) 諮詢
-
-作為專業科技顧問，我們可為本地非上市公司、社福機構及慈善團體準備科技券申請：  
-- 初步評估與方案建議  
-- 項目預算與時間表  
-- 交付成果與文檔支援  
-歡迎聯絡團隊取得免費諮詢。
-
-## 合作流程
-
-1. **了解需求**：工作坊／訪談，梳理目標、成功指標與使用者旅程。  
-2. **體驗設計**：資訊架構、線框、視覺設計與Prototype。  
-3. **工程開發**：敏捷迭代、模組化 API、跨平台發布與品質檢測。  
-4. **發佈與支援**：部署、培訓、監測及持續優化，共同讓產品成長。
+> 🎨 我們深信色彩、體驗與科技可以共鳴：HypoIdea 的每個 solution 都由視覺語言、交互細節與穩實架構構成，帶來富有生命力的品牌體驗。
 
 ## 聯絡我們
 
@@ -55,4 +42,4 @@ Hypothesis and Idea Business Solution Limited（HypoIdea）擁有跨產品策略
 - 📍 地址：Unit 1902, 19/F, On Tin Centre, 1 Sheung Hei Street, San Po Kong, Kowloon  
 - 👍 Facebook：<https://www.facebook.com/hypoidea/>
 
-期待與你探索下一個偉大的構想，歡迎即時聯絡 HypoIdea。 
+期待與你一起打造色彩繽紛、可靠而可持續的數碼體驗，歡迎即時聯絡 HypoIdea！ 
