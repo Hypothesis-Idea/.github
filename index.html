@@ -3,21 +3,187 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>HypoIdea — 轉向中</title>
-    <meta http-equiv="refresh" content="3;url=https://www.hypoidea.com" />
+    <title>Hypothesis and Idea Business Solution Limited</title>
     <style>
-      body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial; color:#222; display:flex; align-items:center; justify-content:center; height:100vh; margin:0; background:#f7f7f8 }
-      .card{ background:white; padding:28px; border-radius:12px; box-shadow:0 6px 24px rgba(10,10,20,0.06); max-width:720px; text-align:center }
-      a.button{ display:inline-block; margin-top:16px; padding:10px 18px; background:#0366d6; color:white; text-decoration:none; border-radius:8px }
+      :root {
+        color-scheme: only light;
+        --primary: #1c4d8c;
+        --accent: #f4b41a;
+        --text: #1b1b1b;
+        --bg: #f5f7fb;
+        --card: #fff;
+      }
+      * { box-sizing: border-box }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+      header {
+        background: linear-gradient(135deg, #142848 0%, #1f5db8 100%);
+        color: #fff;
+        padding: 80px 20px;
+        text-align: center;
+      }
+      header h1 { margin: 0; font-size: clamp(32px, 5vw, 48px) }
+      header p { margin: 16px auto 0; max-width: 720px; font-size: 18px; opacity: 0.9 }
+      .container {
+        width: min(1100px, 92vw);
+        margin: 0 auto;
+        padding: 60px 0;
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 24px;
+        margin-top: 24px;
+      }
+      .card {
+        background: var(--card);
+        padding: 28px;
+        border-radius: 16px;
+        box-shadow: 0 18px 45px rgba(20, 40, 72, 0.08);
+      }
+      .card h3 { margin-top: 0; color: var(--primary) }
+      .philosophy ul {
+        padding-left: 20px;
+        margin: 0;
+      }
+      section + section { margin-top: 60px }
+      .timeline { position: relative; padding-left: 28px }
+      .timeline::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 8px;
+        bottom: 0;
+        width: 2px;
+        background: var(--primary);
+        opacity: 0.3;
+      }
+      .timeline-step {
+        position: relative;
+        margin-bottom: 28px;
+        padding-left: 20px;
+      }
+      .timeline-step::before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: -26px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: var(--accent);
+        border: 2px solid #fff;
+        box-shadow: 0 0 0 2px rgba(28, 77, 140, 0.2);
+      }
+      footer {
+        background: #0f1727;
+        color: #b8c5df;
+        text-align: center;
+        padding: 28px 16px;
+        font-size: 14px;
+      }
+      .highlight {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 18px;
+        background: rgba(255, 255, 255, 0.15);
+        border-radius: 999px;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+      }
+      a.button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 24px;
+        padding: 14px 28px;
+        background: var(--accent);
+        color: #2a1b00;
+        font-weight: 600;
+        text-decoration: none;
+        border-radius: 999px;
+        letter-spacing: 0.02em;
+      }
+      @media (max-width: 600px) {
+        header { padding: 60px 16px }
+        .card { padding: 22px }
+        .timeline::before { left: 4px }
+        .timeline-step::before { left: -30px }
+      }
     </style>
   </head>
   <body>
-    <div class="card">
-      <h1>HypoIdea</h1>
-      <p>將在數秒內自動導向到主站：<strong>https://www.hypoidea.com</strong></p>
-      <p>如果沒有自動導向，請點選下面的連結：</p>
-      <a class="button" href="https://www.hypoidea.com">前往 HypoIdea</a>
-      <p style="margin-top:12px;color:#666;font-size:13px">此頁由 GitHub Pages 提供。如需修改內容，請編輯本 repo 的 <code>index.html</code>。</p>
-    </div>
+    <header>
+      <div class="highlight">香港 · IT 解決方案</div>
+      <h1>Hypothesis and Idea Business Solution Limited</h1>
+      <p>
+        HypoIdea 是一家立足香港的資訊科技公司，協助企業和機構以使用者為本的方式規劃、設計、
+        開發及推廣數碼服務。合理相宜的價錢、透明的合作流程與細緻的支援，是我們長期堅守的承諾。
+      </p>
+      <a class="button" href="https://www.hypoidea.com" target="_blank" rel="noopener">了解更多</a>
+    </header>
+
+    <main class="container">
+      <section class="cards philosophy">
+        <div class="card">
+          <h3>我們的理念</h3>
+          <p>
+            我們堅持以使用者為本的思維，為不同規模的組織提供專業的 IT 顧問與產品開發服務。
+            HypoIdea 透過與客戶緊密合作，確保每個數碼體驗都真正解決使用者痛點。
+          </p>
+          <ul>
+            <li>用戶研究掌握真實需求</li>
+            <li>合理相宜的服務價格</li>
+            <li>清晰的專案節奏與溝通</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>我們是誰</h3>
+          <p>
+            Hypothesis and Idea Business Solution Limited 由一群對產品思維、設計與工程充滿熱誠的夥伴組成。
+            團隊橫跨產品策略、UX/UI、全端開發與雲端部署，協助客戶將構想化為可靠的數碼產品。
+          </p>
+        </div>
+        <div class="card">
+          <h3>提供的價值</h3>
+          <p>
+            透過精準的需求梳理與模組化的技術方案，我們讓專案在可控的預算內快速上線，同時保有長期演進的彈性與品質。
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>合作流程</h2>
+        <div class="timeline">
+          <div class="timeline-step">
+            <h3>了解客戶需求</h3>
+            <p>透過工作坊與訪談確認專案目標、使用者輪廓與成功指標，建立共同語言。</p>
+          </div>
+          <div class="timeline-step">
+            <h3>設計</h3>
+            <p>以使用情境為核心，產出資訊架構、線框與高保真介面，確保體驗一致。</p>
+          </div>
+          <div class="timeline-step">
+            <h3>開發</h3>
+            <p>採敏捷迭代方式開發與測試，並整合必要的 API、雲端與資料服務。</p>
+          </div>
+          <div class="timeline-step">
+            <h3>發佈與支援</h3>
+            <p>協助部署、監測與優化，提供訓練與維運支援，確保產品持續穩定成長。</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Hypothesis and Idea Business Solution Limited · HypoIdea — Copyright ©
+      <script>document.write(new Date().getFullYear())</script>
+    </footer>
   </body>
 </html>
