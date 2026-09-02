@@ -1,0 +1,45 @@
+name: 🐛 Bug Report
+description: 回報一個問題 / Report a problem
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 發生咩事？ What happened?
+      description: 講下步驟、預期行為同實際行為
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 重現步驟 Steps to reproduce
+      placeholder: |
+        1. 去 '...'
+        2. 撳 '...'
+        3. 見到錯誤
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: 嚴重程度 Severity
+      options:
+        - P2 - 有影響但有 workaround
+        - P1 - 主要功能受影響
+        - P0 - Production 全跪 / 數據損失
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 環境 / 版本 Environment / Version
+      placeholder: e.g. production, UAT, commit hash
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / 截圖
+      description: 有就貼上嚟
+    validations:
+      required: false
