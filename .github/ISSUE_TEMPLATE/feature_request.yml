@@ -6,7 +6,7 @@ body:
     id: problem
     attributes:
       label: 想解決咩問題？ Problem statement
-      description: 講下背景同痛點
+      description: 講下背景同痛點（建議方案都可以一齊寫喺度）
     validations:
       required: true
   - type: textarea
@@ -14,17 +14,10 @@ body:
     attributes:
       label: 建議方案 Proposed solution
     validations:
-      required: true
+      required: false
   - type: textarea
     id: alternatives
     attributes:
       label: 其他方案 Alternatives considered
     validations:
       required: false
-  - type: checkboxes
-    id: scope
-    attributes:
-      label: 確認 Confirmation
-      options:
-        - label: 我已經搵過現有 issues，冇重複
-          required: true
