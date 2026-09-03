@@ -6,7 +6,7 @@ body:
     id: what-happened
     attributes:
       label: 發生咩事？ What happened?
-      description: 講下步驟、預期行為同實際行為
+      description: 講下步驟、預期行為同實際行為（其他想講嘅都一齊寫晒落嚟都得）
     validations:
       required: true
   - type: textarea
@@ -18,7 +18,7 @@ body:
         2. 撳 '...'
         3. 見到錯誤
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: severity
     attributes:
@@ -28,7 +28,7 @@ body:
         - P1 - 主要功能受影響
         - P0 - Production 全跪 / 數據損失
     validations:
-      required: true
+      required: false
   - type: input
     id: env
     attributes:
